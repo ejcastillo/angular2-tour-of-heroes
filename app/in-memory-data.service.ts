@@ -1,4 +1,5 @@
 // I assume a data property is added to this by simulator since its used in hero.service
+// ?? this is not an array of Heroes, Hero is not even imported!
 export class InMemoryDataService {
   createDb() {
     let heroes = [
